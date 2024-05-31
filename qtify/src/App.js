@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar.jsx'
 import Hero from './components/Hero/Hero.jsx'
-import styles from './App.module.css'
-import { useEffect, useState } from 'react'
+// import styles from './App.module.css'
+// import { useEffect, useState } from 'react'
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      { /*<Hero />
+      { <Hero />
       /*<div className={styles.sectionWrapper}>
         <Section type='album' title='Top Albums' data={topAlbumSongs} />
         <Section type='album' title='New Albums' data={newAlbumSongs} />
